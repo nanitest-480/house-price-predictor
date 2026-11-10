@@ -5,7 +5,6 @@ metadata:
     app: model
   name: model
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: model
