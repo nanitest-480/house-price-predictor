@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/vlbeta1
+kind: kustomization
+
+resources:
+  - model-deploy.yaml
+  - model-svc.yaml
+  - streamlit-deploy.yaml
+  - streamlit-svc.yaml
