@@ -5,7 +5,7 @@ metadata:
     app: streamlit
   name: streamlit
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: streamlit
@@ -17,6 +17,7 @@ spec:
     spec:
       containers:
       - image: vasu480/streamlit:v4
+        imagePullPolicy: Always
         name: streamlit
         ports:
         - containerPort: 8501
