@@ -16,7 +16,7 @@ spec:
         app: streamlit
     spec:
       containers:
-      - image: vasu480/streamlit:v4
+      - image: vasu480/streamlit:latest
         imagePullPolicy: Always
         name: streamlit
         ports:
